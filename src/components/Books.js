@@ -50,7 +50,7 @@ const Books = ({
                 <td>{book.id}</td>
                 <td>{book.title}</td>
                 <td>
-                  {writer.first_name} {writer.last_name}
+                  {writer?.first_name} {writer?.last_name}
                 </td>
                 <td>{book.year}</td>
               </tr>
